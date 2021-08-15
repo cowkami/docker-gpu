@@ -1,4 +1,4 @@
-IMAGE_NAME=torch-gpu
+IMAGE_NAME=python-gpu
 
 docker.build:
 	docker build -t $(IMAGE_NAME) .
